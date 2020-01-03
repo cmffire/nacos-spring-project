@@ -68,10 +68,10 @@ public class NacosEventListenerConfiguration {
 		};
 
 		// for NacosConfigListenerRegisteredEvent(true)
-		configService.addListener(DATAID, DEFAULT_GROUP, listener);
+		configService.addListener(DATA_ID, DEFAULT_GROUP, listener);
 
 		// for NacosConfigListenerRegisteredEvent(false)
-		configService.removeListener(DATAID, DEFAULT_GROUP, listener);
+		configService.removeListener(DATA_ID, DEFAULT_GROUP, listener);
 	}
 
 	@Bean
